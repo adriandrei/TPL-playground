@@ -25,7 +25,7 @@ namespace TPL_playground
 
                 await InsertUsers();
 
-                Console.WriteLine("Now the buffer will complete. It's complition will be followed by completing the batch. ");
+                Console.WriteLine("Now the buffer will complete. It's complition will be followed by completing the batch. Press any key to continue...");
                 Console.ReadKey();
 
                 bufferBlock.Complete();
